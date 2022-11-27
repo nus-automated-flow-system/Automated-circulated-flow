@@ -4,10 +4,10 @@ High-speed Circulation Micro-flow Synthesis Enabled Practical Large-Scale Hetero
 **Instruments involved:**
 
 Watson Marlow 530 Du;
-Manufacturer: Watson Marlow Ltd
+Manufacturer: Watson Marlow Ltd (corresponding script: "watsonFn.py")
 
 Valco 4-Position Dead-end Selector with Universal Actuator;
-Manufacturer: VICI Valco Instruments Co. Inc
+Manufacturer: VICI Valco Instruments Co. Inc (corresponding script: "valveFn.py")
 
 **Running the programs:**
 1. Download the entire repository.
