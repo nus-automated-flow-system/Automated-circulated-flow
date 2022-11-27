@@ -2,10 +2,10 @@
 High-speed Circulation Micro-flow Synthesis Enabled Practical Large-Scale Heterogeneous Photocatalysis 
 
 Instruments involved:
-Watson Marlow 530 Du
+Watson Marlow 530 Du;
 Manufacturer: Watson Marlow Ltd
 
-Valco 4-Position Dead-end Selector with Universal Actuator
+Valco 4-Position Dead-end Selector with Universal Actuator;
 Manufacturer: VICI Valco Instruments Co. Inc
 
 Running the programs
