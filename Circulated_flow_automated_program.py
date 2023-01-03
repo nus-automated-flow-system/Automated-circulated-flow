@@ -13,13 +13,14 @@ import time
 import threading
 frame = InterfaceFn()
 fr_cmdInt = frame.fr_cmdInt
+
 #parameter
 valve_1=valveFn()
 valve_2=valveFn()
 watson_1=watsonFn()
 watson_2=watsonFn()
-
 #endparameter
+
 #init
 def autoprog_init():
 	global valve_1
@@ -36,6 +37,7 @@ def autoprog_init():
 	watson_2.lbl_watson_sta = lbl_watson_2_sta
 
 #endinit
+
 #cmd
 def autoprog_start():
 	valve_1.valve_go(0, 4, lbl_0)
@@ -143,6 +145,7 @@ def autoprog_start():
 	watson_1.watson_stoping('RL', 0.0, lbl_102)
 	autoprog_abort()
 #endcmd
+
 #abort
 def autoprog_abort():
 	valve_1.close()
@@ -151,6 +154,7 @@ def autoprog_abort():
 	watson_2.close()
 
 #endabort
+
 #label
 lbl_0 = tk.Label(fr_cmdInt, width = 75, text = 'After 0 min, Valve 1 goes to position 4', anchor = 'w', justify = tk.LEFT)
 lbl_0.pack()
