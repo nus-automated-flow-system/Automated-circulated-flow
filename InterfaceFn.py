@@ -75,10 +75,10 @@ class InterfaceFn:
         btn_start = tk.Button(fr_cmdBtn, text="Start", width=15, command=autoprog_start)
         btn_start.grid(row=2, column=0, padx=15, pady=3)
 
-        # btn_pause = tk.Button(fr_cmdBtn, text="Pause", width=15, command=autoprog_start) # under revision
+        # btn_pause = tk.Button(fr_cmdBtn, text="Pause", width=15, command=autoprog_pause) # under revision for improved efficiency
         # btn_pause.grid(row=2, column=1, padx=15, pady=3)
 
-        # btn_resume = tk.Button(fr_cmdBtn, text="Resume", width=15, command=autoprog_start) # under revision
+        # btn_resume = tk.Button(fr_cmdBtn, text="Resume", width=15, command=autoprog_resume) # under revision for improved efficiency
         # btn_resume.grid(row=2, column=2, padx=15, pady=3)
         
         btn_abort = tk.Button(fr_cmdBtn, text="Abort", width=15, fg="red", command=autoprog_abort)
